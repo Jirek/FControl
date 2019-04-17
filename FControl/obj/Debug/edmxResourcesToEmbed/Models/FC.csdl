@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FinancialControlModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="FinancialControlEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Beneficiario" EntityType="FinancialControlModel.Beneficiario" />
+    <EntitySet Name="Cuenta" EntityType="FinancialControlModel.Cuenta" />
+    <EntitySet Name="Divisa" EntityType="FinancialControlModel.Divisa" />
+    <EntitySet Name="EntidadEmisora" EntityType="FinancialControlModel.EntidadEmisora" />
+    <EntitySet Name="sysdiagrams" EntityType="FinancialControlModel.sysdiagrams" />
+    <EntitySet Name="TipoCuenta" EntityType="FinancialControlModel.TipoCuenta" />
+    <EntitySet Name="Transaccion" EntityType="FinancialControlModel.Transaccion" />
+    <EntitySet Name="Traspaso" EntityType="FinancialControlModel.Traspaso" />
+    <EntitySet Name="Usuario" EntityType="FinancialControlModel.Usuario" />
+    <AssociationSet Name="FK_Beneficiario_Usuario" Association="FinancialControlModel.FK_Beneficiario_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Beneficiario" EntitySet="Beneficiario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Transaccion_Beneficiario" Association="FinancialControlModel.FK_Transaccion_Beneficiario">
+      <End Role="Beneficiario" EntitySet="Beneficiario" />
+      <End Role="Transaccion" EntitySet="Transaccion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cuenta_Divisa" Association="FinancialControlModel.FK_Cuenta_Divisa">
+      <End Role="Divisa" EntitySet="Divisa" />
+      <End Role="Cuenta" EntitySet="Cuenta" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cuenta_EntidadEmisora" Association="FinancialControlModel.FK_Cuenta_EntidadEmisora">
+      <End Role="EntidadEmisora" EntitySet="EntidadEmisora" />
+      <End Role="Cuenta" EntitySet="Cuenta" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cuenta_TipoCuenta" Association="FinancialControlModel.FK_Cuenta_TipoCuenta">
+      <End Role="TipoCuenta" EntitySet="TipoCuenta" />
+      <End Role="Cuenta" EntitySet="Cuenta" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Transaccion_Cuenta" Association="FinancialControlModel.FK_Transaccion_Cuenta">
+      <End Role="Cuenta" EntitySet="Cuenta" />
+      <End Role="Transaccion" EntitySet="Transaccion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Traspaso_Cuenta" Association="FinancialControlModel.FK_Traspaso_Cuenta">
+      <End Role="Cuenta" EntitySet="Cuenta" />
+      <End Role="Traspaso" EntitySet="Traspaso" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Traspaso_Cuenta1" Association="FinancialControlModel.FK_Traspaso_Cuenta1">
+      <End Role="Cuenta" EntitySet="Cuenta" />
+      <End Role="Traspaso" EntitySet="Traspaso" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Transaccion_Divisa" Association="FinancialControlModel.FK_Transaccion_Divisa">
+      <End Role="Divisa" EntitySet="Divisa" />
+      <End Role="Transaccion" EntitySet="Transaccion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Traspaso_Divisa" Association="FinancialControlModel.FK_Traspaso_Divisa">
+      <End Role="Divisa" EntitySet="Divisa" />
+      <End Role="Traspaso" EntitySet="Traspaso" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Transaccion_Usuario" Association="FinancialControlModel.FK_Transaccion_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Transaccion" EntitySet="Transaccion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Traspaso_Usuario" Association="FinancialControlModel.FK_Traspaso_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Traspaso" EntitySet="Traspaso" />
+    </AssociationSet>
+    <AssociationSet Name="CuentaUsuario" Association="FinancialControlModel.CuentaUsuario">
+      <End Role="Cuenta" EntitySet="Cuenta" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Beneficiario">
+    <Key>
+      <PropertyRef Name="BeneficiarioID" />
+    </Key>
+    <Property Name="BeneficiarioID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UsuarioID" Type="Int32" />
+    <NavigationProperty Name="Usuario" Relationship="FinancialControlModel.FK_Beneficiario_Usuario" FromRole="Beneficiario" ToRole="Usuario" />
+    <NavigationProperty Name="Transaccion" Relationship="FinancialControlModel.FK_Transaccion_Beneficiario" FromRole="Beneficiario" ToRole="Transaccion" />
+  </EntityType>
+  <EntityType Name="Cuenta">
+    <Key>
+      <PropertyRef Name="CuentaID" />
+    </Key>
+    <Property Name="CuentaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DivisaID" Type="Int32" />
+    <Property Name="SaldoInicial" Type="Double" />
+    <Property Name="Concepto" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FechaCuenta" Type="DateTime" Precision="3" />
+    <Property Name="UsuarioID" Type="Int32" />
+    <Property Name="TipoCuentaID" Type="Int32" />
+    <Property Name="EntidadEmisoraID" Type="Int32" />
+    <Property Name="Entidad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NumeroTarjeta" Type="Int32" />
+    <Property Name="DiaCierre" Type="Int32" />
+    <Property Name="DiaPago" Type="Int32" />
+    <Property Name="LimiteCredito" Type="Double" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Total" Type="Double" />
+    <NavigationProperty Name="Divisa" Relationship="FinancialControlModel.FK_Cuenta_Divisa" FromRole="Cuenta" ToRole="Divisa" />
+    <NavigationProperty Name="EntidadEmisora" Relationship="FinancialControlModel.FK_Cuenta_EntidadEmisora" FromRole="Cuenta" ToRole="EntidadEmisora" />
+    <NavigationProperty Name="TipoCuenta" Relationship="FinancialControlModel.FK_Cuenta_TipoCuenta" FromRole="Cuenta" ToRole="TipoCuenta" />
+    <NavigationProperty Name="Transaccion" Relationship="FinancialControlModel.FK_Transaccion_Cuenta" FromRole="Cuenta" ToRole="Transaccion" />
+    <NavigationProperty Name="Traspaso" Relationship="FinancialControlModel.FK_Traspaso_Cuenta" FromRole="Cuenta" ToRole="Traspaso" />
+    <NavigationProperty Name="Traspaso1" Relationship="FinancialControlModel.FK_Traspaso_Cuenta1" FromRole="Cuenta" ToRole="Traspaso" />
+    <NavigationProperty Name="Usuario" Relationship="FinancialControlModel.CuentaUsuario" FromRole="Cuenta" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Divisa">
+    <Key>
+      <PropertyRef Name="DivisaID" />
+    </Key>
+    <Property Name="DivisaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Simbolo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TasaCam" Type="Double" />
+    <Property Name="Codigo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Cuenta" Relationship="FinancialControlModel.FK_Cuenta_Divisa" FromRole="Divisa" ToRole="Cuenta" />
+    <NavigationProperty Name="Transaccion" Relationship="FinancialControlModel.FK_Transaccion_Divisa" FromRole="Divisa" ToRole="Transaccion" />
+    <NavigationProperty Name="Traspaso" Relationship="FinancialControlModel.FK_Traspaso_Divisa" FromRole="Divisa" ToRole="Traspaso" />
+  </EntityType>
+  <EntityType Name="EntidadEmisora">
+    <Key>
+      <PropertyRef Name="EntidadEmisoraID" />
+    </Key>
+    <Property Name="EntidadEmisoraID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Logo" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Cuenta" Relationship="FinancialControlModel.FK_Cuenta_EntidadEmisora" FromRole="EntidadEmisora" ToRole="Cuenta" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TipoCuenta">
+    <Key>
+      <PropertyRef Name="TipoCuentaID" />
+    </Key>
+    <Property Name="TipoCuentaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Cuenta" Relationship="FinancialControlModel.FK_Cuenta_TipoCuenta" FromRole="TipoCuenta" ToRole="Cuenta" />
+  </EntityType>
+  <EntityType Name="Transaccion">
+    <Key>
+      <PropertyRef Name="TransaccionID" />
+    </Key>
+    <Property Name="TransaccionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CuentaID" Type="Int32" />
+    <Property Name="DivisaID" Type="Int32" />
+    <Property Name="Importe" Type="Double" />
+    <Property Name="Concepto" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FechaTransaccion" Type="DateTime" Precision="3" />
+    <Property Name="BenefeciarioID" Type="Int32" />
+    <Property Name="UsuarioID" Type="Int32" />
+    <Property Name="ImporteOtraDivisa" Type="Double" />
+    <Property Name="TipoTransaccion" Type="Int32" />
+    <NavigationProperty Name="Beneficiario" Relationship="FinancialControlModel.FK_Transaccion_Beneficiario" FromRole="Transaccion" ToRole="Beneficiario" />
+    <NavigationProperty Name="Cuenta" Relationship="FinancialControlModel.FK_Transaccion_Cuenta" FromRole="Transaccion" ToRole="Cuenta" />
+    <NavigationProperty Name="Divisa" Relationship="FinancialControlModel.FK_Transaccion_Divisa" FromRole="Transaccion" ToRole="Divisa" />
+    <NavigationProperty Name="Usuario" Relationship="FinancialControlModel.FK_Transaccion_Usuario" FromRole="Transaccion" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Traspaso">
+    <Key>
+      <PropertyRef Name="TraspasoID" />
+    </Key>
+    <Property Name="TraspasoID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UsuarioID" Type="Int32" />
+    <Property Name="CuentaOrigenID" Type="Int32" />
+    <Property Name="CuentaDestinoID" Type="Int32" />
+    <Property Name="DivisaID" Type="Int32" />
+    <Property Name="Monto" Type="Double" />
+    <Property Name="Concepto" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Cuenta" Relationship="FinancialControlModel.FK_Traspaso_Cuenta" FromRole="Traspaso" ToRole="Cuenta" />
+    <NavigationProperty Name="Cuenta1" Relationship="FinancialControlModel.FK_Traspaso_Cuenta1" FromRole="Traspaso" ToRole="Cuenta" />
+    <NavigationProperty Name="Divisa" Relationship="FinancialControlModel.FK_Traspaso_Divisa" FromRole="Traspaso" ToRole="Divisa" />
+    <NavigationProperty Name="Usuario" Relationship="FinancialControlModel.FK_Traspaso_Usuario" FromRole="Traspaso" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="UsuarioID" />
+    </Key>
+    <Property Name="UsuarioID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Imagen" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Beneficiario" Relationship="FinancialControlModel.FK_Beneficiario_Usuario" FromRole="Usuario" ToRole="Beneficiario" />
+    <NavigationProperty Name="Transaccion" Relationship="FinancialControlModel.FK_Transaccion_Usuario" FromRole="Usuario" ToRole="Transaccion" />
+    <NavigationProperty Name="Traspaso" Relationship="FinancialControlModel.FK_Traspaso_Usuario" FromRole="Usuario" ToRole="Traspaso" />
+    <NavigationProperty Name="Cuenta" Relationship="FinancialControlModel.CuentaUsuario" FromRole="Usuario" ToRole="Cuenta" />
+  </EntityType>
+  <Association Name="FK_Beneficiario_Usuario">
+    <End Type="FinancialControlModel.Usuario" Role="Usuario" Multiplicity="0..1" />
+    <End Type="FinancialControlModel.Beneficiario" Role="Beneficiario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="UsuarioID" />
+      </Principal>
+      <Dependent Role="Beneficiario">
+        <PropertyRef Name="UsuarioID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Transaccion_Beneficiario">
+    <End Type="FinancialControlModel.Beneficiario" Role="Beneficiario" Multiplicity="0..1" />
+    <End Type="FinancialControlModel.Transaccion" Role="Transaccion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Beneficiario">
+        <PropertyRef Name="BeneficiarioID" />
+      </Principal>
+      <Dependent Role="Transaccion">
+        <PropertyRef Name="BenefeciarioID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cuenta_Divisa">
+    <End Type="FinancialControlModel.Divisa" Role="Divisa" Multiplicity="0..1" />
+    <End Type="FinancialControlModel.Cuenta" Role="Cuenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Divisa">
+        <PropertyRef Name="DivisaID" />
+      </Principal>
+      <Dependent Role="Cuenta">
+        <PropertyRef Name="DivisaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cuenta_EntidadEmisora">
+    <End Type="FinancialControlModel.EntidadEmisora" Role="EntidadEmisora" Multiplicity="0..1" />
+    <End Type="FinancialControlModel.Cuenta" Role="Cuenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EntidadEmisora">
+        <PropertyRef Name="EntidadEmisoraID" />
+      </Principal>
+      <Dependent Role="Cuenta">
+        <PropertyRef Name="EntidadEmisoraID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cuenta_TipoCuenta">
+    <End Type="FinancialControlModel.TipoCuenta" Role="TipoCuenta" Multiplicity="0..1" />
+    <End Type="FinancialControlModel.Cuenta" Role="Cuenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TipoCuenta">
+        <PropertyRef Name="TipoCuentaID" />
+      </Principal>
+      <Dependent Role="Cuenta">
+        <PropertyRef Name="TipoCuentaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Transaccion_Cuenta">
+    <End Type="FinancialControlModel.Cuenta" Role="Cuenta" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="FinancialControlModel.Transaccion" Role="Transaccion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cuenta">
+        <PropertyRef Name="CuentaID" />
+      </Principal>
+      <Dependent Role="Transaccion">
+        <PropertyRef Name="CuentaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Traspaso_Cuenta">
+    <End Type="FinancialControlModel.Cuenta" Role="Cuenta" Multiplicity="0..1" />
+    <End Type="FinancialControlModel.Traspaso" Role="Traspaso" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cuenta">
+        <PropertyRef Name="CuentaID" />
+      </Principal>
+      <Dependent Role="Traspaso">
+        <PropertyRef Name="CuentaOrigenID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Traspaso_Cuenta1">
+    <End Type="FinancialControlModel.Cuenta" Role="Cuenta" Multiplicity="0..1" />
+    <End Type="FinancialControlModel.Traspaso" Role="Traspaso" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cuenta">
+        <PropertyRef Name="CuentaID" />
+      </Principal>
+      <Dependent Role="Traspaso">
+        <PropertyRef Name="CuentaDestinoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Transaccion_Divisa">
+    <End Type="FinancialControlModel.Divisa" Role="Divisa" Multiplicity="0..1" />
+    <End Type="FinancialControlModel.Transaccion" Role="Transaccion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Divisa">
+        <PropertyRef Name="DivisaID" />
+      </Principal>
+      <Dependent Role="Transaccion">
+        <PropertyRef Name="DivisaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Traspaso_Divisa">
+    <End Type="FinancialControlModel.Divisa" Role="Divisa" Multiplicity="0..1" />
+    <End Type="FinancialControlModel.Traspaso" Role="Traspaso" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Divisa">
+        <PropertyRef Name="DivisaID" />
+      </Principal>
+      <Dependent Role="Traspaso">
+        <PropertyRef Name="DivisaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Transaccion_Usuario">
+    <End Type="FinancialControlModel.Usuario" Role="Usuario" Multiplicity="0..1" />
+    <End Type="FinancialControlModel.Transaccion" Role="Transaccion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="UsuarioID" />
+      </Principal>
+      <Dependent Role="Transaccion">
+        <PropertyRef Name="UsuarioID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Traspaso_Usuario">
+    <End Type="FinancialControlModel.Usuario" Role="Usuario" Multiplicity="0..1" />
+    <End Type="FinancialControlModel.Traspaso" Role="Traspaso" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="UsuarioID" />
+      </Principal>
+      <Dependent Role="Traspaso">
+        <PropertyRef Name="UsuarioID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CuentaUsuario">
+    <End Type="FinancialControlModel.Cuenta" Role="Cuenta" Multiplicity="*" />
+    <End Type="FinancialControlModel.Usuario" Role="Usuario" Multiplicity="*" />
+  </Association>
+</Schema>

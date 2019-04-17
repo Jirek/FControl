@@ -1,0 +1,152 @@
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\roslyn\csc.exe
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\roslyn\vbc.exe
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\FControl.Tests.dll.config
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\FControl.Tests.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\FControl.Tests.pdb
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\EntityFramework.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\EntityFramework.SqlServer.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\FControl.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\nunit.framework.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\System.Web.Helpers.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\System.Web.Mvc.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\System.Web.Razor.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\System.Web.WebPages.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\WebDriver.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\WebDriver.Support.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\Microsoft.Owin.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\System.Web.Optimization.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\Microsoft.Owin.Security.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\Owin.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\FControl.pdb
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\EntityFramework.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\EntityFramework.SqlServer.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\nunit.framework.pdb
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\nunit.framework.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\System.Web.Helpers.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\System.Web.Mvc.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\System.Web.Razor.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\System.Web.WebPages.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\WebDriver.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\WebDriver.Support.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\Microsoft.Owin.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\System.Web.Optimization.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\Microsoft.Owin.Security.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\es\EntityFramework.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\es\System.Web.Helpers.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\es\System.Web.Mvc.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\es\System.Web.Razor.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\es\System.Web.WebPages.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\es\Microsoft.Owin.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\es\System.Web.Optimization.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Core.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\es\Microsoft.Owin.Security.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\bin\Debug\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\obj\Debug\FControl.Tests.csprojResolveAssemblyReference.cache
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\obj\Debug\FControl.Tests.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl.Tests\obj\Debug\FControl.Tests.pdb
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\roslyn\csc.exe
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\roslyn\vbc.exe
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\FControl.Tests.dll.config
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\FControl.Tests.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\FControl.Tests.pdb
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\EntityFramework.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\EntityFramework.SqlServer.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\FControl.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\nunit.framework.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\System.Web.Helpers.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\System.Web.Mvc.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\System.Web.Razor.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\System.Web.WebPages.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\WebDriver.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\WebDriver.Support.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\Microsoft.Owin.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\System.Web.Optimization.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\Microsoft.Owin.Security.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\Owin.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\FControl.pdb
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\EntityFramework.xml
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\EntityFramework.SqlServer.xml
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\nunit.framework.pdb
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\nunit.framework.xml
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\System.Web.Helpers.xml
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\System.Web.Mvc.xml
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\System.Web.Razor.xml
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\System.Web.WebPages.xml
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\WebDriver.xml
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\WebDriver.Support.xml
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\Microsoft.Owin.xml
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\System.Web.Optimization.xml
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\Microsoft.Owin.Security.xml
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\es\EntityFramework.resources.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\es\System.Web.Helpers.resources.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\es\System.Web.Mvc.resources.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\es\System.Web.Razor.resources.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\es\System.Web.WebPages.resources.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\es\Microsoft.Owin.resources.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\es\System.Web.Optimization.resources.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Core.resources.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\es\Microsoft.Owin.Security.resources.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\FINANCIAL\FControl\FControl.Tests\bin\Debug\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\FINANCIAL\FControl\FControl.Tests\obj\Debug\FControl.Tests.csprojResolveAssemblyReference.cache
+E:\FINANCIAL\FControl\FControl.Tests\obj\Debug\FControl.Tests.dll
+E:\FINANCIAL\FControl\FControl.Tests\obj\Debug\FControl.Tests.pdb

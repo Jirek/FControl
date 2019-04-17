@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "Registrar";
+}
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <title>LogIn</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="~/Content/main.css" rel="stylesheet" />
+</head>
+
+<body class="cover" style="background-image: url(/assets/img/loginFont4.jpg);">
+    <br />
+    <br />
+    <fieldset class="full-box logInForm">
+        <form method="post" action="/Login/Guardar">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group" method="post" action="/usuario/login">
+                <label>Name</label>
+                <input type="text" name="Name" class="form-control" placeholder="Nombre de Usuario">
+                @Html.ValidationMessage("Name")
+            </div>
+
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" name="Password" class="form-control" placeholder="Password">
+                @Html.ValidationMessage("Password")
+            </div>
+
+
+            <div class="form-group">
+                <label>Nombre</label>
+                <input type="text" name="Nombre" class="form-control" id="exampleInputEmail1" placeholder="Nombre">
+                @Html.ValidationMessage("Nombre")
+            </div>
+
+            <div class="form-group">
+                <label>Apellido</label>
+                <input type="text" name="Apellido" class="form-control" id="exampleInputEmail1" placeholder="Apellido">
+                @Html.ValidationMessage("Apellido")
+            </div>
+
+            <button type="submit" class="btn btn-default">Guardar</button>
+        </form>
+    </fieldset>
+    }
+
+
+<script src="~/Scripts/jquery-3.1.1.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="~/Scripts/material.min.js"></script>
+<script src="~/Scripts/ripples.min.js"></script>
+<script src="~/Scripts/sweetalert2.min.js"></script>
+<script src="~/Scripts/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="~/Scripts/main.js"></script>
+
+<script>
+        $.material.init();
+</script>
+</body>
+</html>

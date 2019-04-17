@@ -1,0 +1,33 @@
+﻿@model FControl.Models.Cuenta
+@{
+    ViewBag.Title = "Eliminar";
+}
+
+<h2>Eliminar</h2>
+<h3>Deseas eliminar esta Cuenta!!!</h3>
+<div>
+    <div>
+        <label>Cuenta: </label>
+
+        @Html.DisplayFor(model => model.Nombre)
+    </div>
+    <hr />
+    <dl class="dl-horizontal">
+       
+            
+           
+ 
+             
+</dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Eliminar" class="btn btn-sx btn-danger" />
+            <a href='@Url.Action("Index","Cuenta")' class="btn  btn-sm btn-info"><span class="glyphicon glyphicon-backward"></span> Regresar</a>
+
+        </div>
+    }
+</div>

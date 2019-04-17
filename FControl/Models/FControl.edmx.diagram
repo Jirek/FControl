@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5595b8d16d0a43c0a79eb7a63110eaa9" Name="Diagram1">
+        <EntityTypeShape EntityType="FinancialControlModel.Beneficiario" Width="1.5" PointX="3" PointY="11.5" />
+        <EntityTypeShape EntityType="FinancialControlModel.Cuenta" Width="1.5" PointX="3" PointY="3.5" />
+        <EntityTypeShape EntityType="FinancialControlModel.Divisa" Width="1.5" PointX="0.75" PointY="9.125" />
+        <EntityTypeShape EntityType="FinancialControlModel.EntidadEmisora" Width="1.5" PointX="0.75" PointY="1.5" />
+        <EntityTypeShape EntityType="FinancialControlModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" />
+        <EntityTypeShape EntityType="FinancialControlModel.TipoCuenta" Width="1.5" PointX="0.75" PointY="12.375" />
+        <EntityTypeShape EntityType="FinancialControlModel.Transaccion" Width="1.5" PointX="5.25" PointY="6.625" />
+        <EntityTypeShape EntityType="FinancialControlModel.Traspaso" Width="1.5" PointX="5.875" PointY="2.875" />
+        <EntityTypeShape EntityType="FinancialControlModel.Usuario" Width="1.5" PointX="0.5" PointY="4.75" />
+        <AssociationConnector Association="FinancialControlModel.FK_Beneficiario_Usuario" />
+        <AssociationConnector Association="FinancialControlModel.FK_Transaccion_Beneficiario" />
+        <AssociationConnector Association="FinancialControlModel.FK_Cuenta_Divisa" />
+        <AssociationConnector Association="FinancialControlModel.FK_Cuenta_EntidadEmisora" />
+        <AssociationConnector Association="FinancialControlModel.FK_Cuenta_TipoCuenta" />
+        <AssociationConnector Association="FinancialControlModel.FK_Cuenta_Usuario" />
+        <AssociationConnector Association="FinancialControlModel.FK_Transaccion_Cuenta" />
+        <AssociationConnector Association="FinancialControlModel.FK_Traspaso_Cuenta" />
+        <AssociationConnector Association="FinancialControlModel.FK_Traspaso_Cuenta1" />
+        <AssociationConnector Association="FinancialControlModel.FK_Transaccion_Divisa" />
+        <AssociationConnector Association="FinancialControlModel.FK_Traspaso_Divisa" />
+        <AssociationConnector Association="FinancialControlModel.FK_Transaccion_Usuario" />
+        <AssociationConnector Association="FinancialControlModel.FK_Traspaso_Usuario" />
+        <AssociationConnector Association="FinancialControlModel.FK_Cuenta_Usuario1" />
+        <AssociationConnector Association="FinancialControlModel.FK_Transaccion_Cuenta1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,274 @@
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\roslyn\csc.exe
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\roslyn\System.Collections.Immutable.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\roslyn\System.Reflection.Metadata.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\roslyn\vbc.exe
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\roslyn\VBCSCompiler.exe
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\roslyn\VBCSCompiler.exe.config
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\FControl.dll.config
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\FControl.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\FControl.pdb
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Antlr3.Runtime.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\EntityFramework.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\EntityFramework.SqlServer.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.AspNet.Identity.Core.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.Owin.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.Owin.Security.Cookies.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.Owin.Security.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.Owin.Security.Facebook.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.Owin.Security.Google.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.Owin.Security.OAuth.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.Owin.Security.Twitter.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.Web.Infrastructure.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Newtonsoft.Json.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\nunit.framework.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Owin.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\System.Web.Helpers.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\System.Web.Mvc.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\System.Web.Optimization.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\System.Web.Razor.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\System.Web.WebPages.Deployment.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\System.Web.WebPages.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\System.Web.WebPages.Razor.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\WebGrease.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\nunit.framework.pdb
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\nunit.framework.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\System.Web.Helpers.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\System.Web.Mvc.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\System.Web.Optimization.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\System.Web.Razor.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\System.Web.WebPages.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\System.Web.WebPages.Deployment.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\System.Web.WebPages.Razor.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Antlr3.Runtime.pdb
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Newtonsoft.Json.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\EntityFramework.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\EntityFramework.SqlServer.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.AspNet.Identity.Core.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.Owin.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.Owin.Security.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.Owin.Security.Facebook.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.Owin.Security.Cookies.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.Owin.Security.OAuth.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.Owin.Security.Google.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.Owin.Security.Twitter.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\es\System.Web.Helpers.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\es\System.Web.Mvc.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\es\System.Web.Optimization.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\es\System.Web.Razor.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\es\System.Web.WebPages.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\es\EntityFramework.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\es\EntityFramework.SqlServer.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\es\Microsoft.Owin.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\es\Microsoft.Owin.Security.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\es\Microsoft.Owin.Security.Google.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\obj\Debug\FControl.dll
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\obj\Debug\FControl.pdb
+E:\AYAY_FRANKLIN\UPN\8 CICLO\FINANCIAL CONTROL\FControl\FControl\obj\Debug\FControl.csprojResolveAssemblyReference.cache
+E:\FINANCIAL\FControl\FControl\bin\roslyn\csc.exe
+E:\FINANCIAL\FControl\FControl\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\FINANCIAL\FControl\FControl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\FINANCIAL\FControl\FControl\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\FINANCIAL\FControl\FControl\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\FINANCIAL\FControl\FControl\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\FINANCIAL\FControl\FControl\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\FINANCIAL\FControl\FControl\bin\roslyn\System.Collections.Immutable.dll
+E:\FINANCIAL\FControl\FControl\bin\roslyn\System.Reflection.Metadata.dll
+E:\FINANCIAL\FControl\FControl\bin\roslyn\vbc.exe
+E:\FINANCIAL\FControl\FControl\bin\roslyn\VBCSCompiler.exe
+E:\FINANCIAL\FControl\FControl\bin\roslyn\VBCSCompiler.exe.config
+E:\FINANCIAL\FControl\FControl\bin\FControl.dll.config
+E:\FINANCIAL\FControl\FControl\bin\FControl.dll
+E:\FINANCIAL\FControl\FControl\bin\FControl.pdb
+E:\FINANCIAL\FControl\FControl\bin\Antlr3.Runtime.dll
+E:\FINANCIAL\FControl\FControl\bin\EntityFramework.dll
+E:\FINANCIAL\FControl\FControl\bin\EntityFramework.SqlServer.dll
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.AspNet.Identity.Core.dll
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.Owin.dll
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.Owin.Security.Cookies.dll
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.Owin.Security.dll
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.Owin.Security.Facebook.dll
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.Owin.Security.Google.dll
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.Owin.Security.OAuth.dll
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.Owin.Security.Twitter.dll
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.Web.Infrastructure.dll
+E:\FINANCIAL\FControl\FControl\bin\Newtonsoft.Json.dll
+E:\FINANCIAL\FControl\FControl\bin\nunit.framework.dll
+E:\FINANCIAL\FControl\FControl\bin\Owin.dll
+E:\FINANCIAL\FControl\FControl\bin\System.Web.Helpers.dll
+E:\FINANCIAL\FControl\FControl\bin\System.Web.Mvc.dll
+E:\FINANCIAL\FControl\FControl\bin\System.Web.Optimization.dll
+E:\FINANCIAL\FControl\FControl\bin\System.Web.Razor.dll
+E:\FINANCIAL\FControl\FControl\bin\System.Web.WebPages.Deployment.dll
+E:\FINANCIAL\FControl\FControl\bin\System.Web.WebPages.dll
+E:\FINANCIAL\FControl\FControl\bin\System.Web.WebPages.Razor.dll
+E:\FINANCIAL\FControl\FControl\bin\WebGrease.dll
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\FINANCIAL\FControl\FControl\bin\nunit.framework.pdb
+E:\FINANCIAL\FControl\FControl\bin\nunit.framework.xml
+E:\FINANCIAL\FControl\FControl\bin\System.Web.Helpers.xml
+E:\FINANCIAL\FControl\FControl\bin\System.Web.Mvc.xml
+E:\FINANCIAL\FControl\FControl\bin\System.Web.Optimization.xml
+E:\FINANCIAL\FControl\FControl\bin\System.Web.Razor.xml
+E:\FINANCIAL\FControl\FControl\bin\System.Web.WebPages.xml
+E:\FINANCIAL\FControl\FControl\bin\System.Web.WebPages.Deployment.xml
+E:\FINANCIAL\FControl\FControl\bin\System.Web.WebPages.Razor.xml
+E:\FINANCIAL\FControl\FControl\bin\Antlr3.Runtime.pdb
+E:\FINANCIAL\FControl\FControl\bin\Newtonsoft.Json.xml
+E:\FINANCIAL\FControl\FControl\bin\EntityFramework.xml
+E:\FINANCIAL\FControl\FControl\bin\EntityFramework.SqlServer.xml
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.AspNet.Identity.Core.xml
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.Owin.xml
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.Owin.Security.xml
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.Owin.Security.Facebook.xml
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.Owin.Security.Cookies.xml
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.Owin.Security.OAuth.xml
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.Owin.Security.Google.xml
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.Owin.Security.Twitter.xml
+E:\FINANCIAL\FControl\FControl\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\FINANCIAL\FControl\FControl\bin\es\System.Web.Helpers.resources.dll
+E:\FINANCIAL\FControl\FControl\bin\es\System.Web.Mvc.resources.dll
+E:\FINANCIAL\FControl\FControl\bin\es\System.Web.Optimization.resources.dll
+E:\FINANCIAL\FControl\FControl\bin\es\System.Web.Razor.resources.dll
+E:\FINANCIAL\FControl\FControl\bin\es\System.Web.WebPages.resources.dll
+E:\FINANCIAL\FControl\FControl\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\FINANCIAL\FControl\FControl\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\FINANCIAL\FControl\FControl\bin\es\EntityFramework.resources.dll
+E:\FINANCIAL\FControl\FControl\bin\es\EntityFramework.SqlServer.resources.dll
+E:\FINANCIAL\FControl\FControl\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+E:\FINANCIAL\FControl\FControl\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\FINANCIAL\FControl\FControl\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\FINANCIAL\FControl\FControl\bin\es\Microsoft.Owin.resources.dll
+E:\FINANCIAL\FControl\FControl\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\FINANCIAL\FControl\FControl\bin\es\Microsoft.Owin.Security.resources.dll
+E:\FINANCIAL\FControl\FControl\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+E:\FINANCIAL\FControl\FControl\bin\es\Microsoft.Owin.Security.Google.resources.dll
+E:\FINANCIAL\FControl\FControl\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+E:\FINANCIAL\FControl\FControl\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\FINANCIAL\FControl\FControl\obj\Debug\FControl.dll
+E:\FINANCIAL\FControl\FControl\obj\Debug\FControl.pdb
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\roslyn\csc.exe
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\roslyn\vbc.exe
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\roslyn\VBCSCompiler.exe
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\FControl.dll.config
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\FControl.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\FControl.pdb
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Antlr3.Runtime.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\EntityFramework.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\EntityFramework.SqlServer.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.Owin.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.Owin.Security.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Newtonsoft.Json.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\nunit.framework.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Owin.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\System.Web.Helpers.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\System.Web.Mvc.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\System.Web.Optimization.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\System.Web.Razor.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\System.Web.WebPages.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\System.Web.WebPages.Razor.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\WebGrease.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\nunit.framework.pdb
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\nunit.framework.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\System.Web.Helpers.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\System.Web.Mvc.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\System.Web.Optimization.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\System.Web.Razor.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\System.Web.WebPages.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\System.Web.WebPages.Razor.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Antlr3.Runtime.pdb
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Newtonsoft.Json.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\EntityFramework.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\EntityFramework.SqlServer.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.Owin.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.Owin.Security.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\es\System.Web.Helpers.resources.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\es\System.Web.Mvc.resources.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\es\System.Web.Optimization.resources.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\es\System.Web.Razor.resources.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\es\System.Web.WebPages.resources.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\es\EntityFramework.resources.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\es\Microsoft.Owin.resources.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\obj\Debug\FControl.csprojAssemblyReference.cache
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\obj\Debug\FControl.csproj.CoreCompileInputs.cache
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\obj\Debug\FControl.csproj.CopyComplete
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\obj\Debug\FControl.dll
+C:\Users\jirec\Documents\Proyectos Visual\1234\FControl\FControl\obj\Debug\FControl.pdb

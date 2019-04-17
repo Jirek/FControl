@@ -1,0 +1,185 @@
+﻿@model IEnumerable<FControl.Models.Cuenta>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <title>Inicio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="~/Content/main.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- SideBar -->
+    <section class="full-box cover dashboard-sideBar">
+        <div class="full-box dashboard-sideBar-bg btn-menu-dashboard"></div>
+        <div class="full-box dashboard-sideBar-ct">
+            <!--SideBar Title -->
+            <div class="full-box text-uppercase text-center text-titles dashboard-sideBar-title">
+                Financial Control <i class="zmdi zmdi-close btn-menu-dashboard visible-xs"></i>
+            </div>
+            <!-- SideBar User info -->
+            <div class="full-box dashboard-sideBar-UserInfo">
+                <figure class="full-box">
+                    <img src=@Session["Imagen"].ToString() alt="UserIcon">
+                    <figcaption class="text-center text-titles">@Session["Nombre"].ToString() @Session["Apellido"].ToString() </figcaption>
+                </figure>
+
+                <ul class="full-box list-unstyled text-center">
+                    <li>
+                        <a href="#!">
+                            <i class="zmdi zmdi-settings"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#!" class="btn-exit-system">
+                            <i class="zmdi zmdi-power"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- SideBar Menu -->
+            <ul class="list-unstyled full-box dashboard-sideBar-Menu">
+                <li>
+                    <a href="#!" class="btn-sideBar-SubMenu">
+                        <i class="zmdi zmdi-case zmdi-hc-fw"></i> Cuenta<i class="zmdi zmdi-caret-down pull-right"></i>
+                    </a>
+                    <ul class="list-unstyled full-box">
+                        <li>
+                            <a href="/Cuenta/Crear"><i class="zmdi zmdi-timer zmdi-hc-fw"></i> Crear</a>
+                        </li>
+                        <li>
+                            <a href="/Cuenta/Index"><i class="zmdi zmdi-book zmdi-hc-fw"></i> Lista</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="/Transaccion/Index">
+                        <i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i> Registro
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i> Beneficiario
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Content page-->
+    <section class="full-box dashboard-contentPage">
+        <!-- NavBar -->
+        <nav class="full-box dashboard-Navbar">
+            <ul class="full-box list-unstyled text-right">
+                <li class="pull-left">
+                    <a href="#!" class="btn-menu-dashboard"><i class="zmdi zmdi-more-vert"></i></a>
+                </li>
+                <li>
+                    <a href="#!" class="btn-Notifications-area">
+                        <i class="zmdi zmdi-notifications-none"></i>
+                        <span class="badge">7</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="#!" class="btn-search">
+                        <i class="zmdi zmdi-search"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!" class="btn-modal-help">
+                        <i class="zmdi zmdi-help-outline"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Lista de Cuentas -->
+        <div class="container-fluid">
+            <div class="page-header">
+                <h1 class="text-titles">Cuenta <small>de Usuario</small></h1>
+            </div>
+
+            <p>
+                @Html.ActionLink(" Nueva Cuenta", "Crear", null, new { @class = "btn btn-block btn-lg btn-success" , id="cuenta"})
+            </p>
+
+            <table class="table">
+               
+                    @foreach (var item in Model)
+                    {
+
+                        <tr>
+
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TipoCuenta.Nombre) <br />
+                                @Html.DisplayFor(modelItem => item.NumeroTarjeta)
+                                @Html.DisplayFor(modelItem => item.Nombre) <br />
+                                @Html.DisplayFor(modelItem => item.FechaCuenta)
+
+                            </td>
+                            <td>
+                               
+                            </td>
+
+                            <td>
+                                @item.Transaccion.Sum(x => x.Importe)
+                                @Html.DisplayFor(modelItem => item.Divisa.Simbolo)
+                            </td>
+                            <td>
+                                <label>S/</label>
+                                @item.Transaccion.Sum(x => x.ImporteOtraDivisa)
+                               
+                            </td>
+                            <td>
+                                
+                            </td>
+
+                            <td>
+                                
+                                <a href='@Url.Action("Opciones","Cuenta", new { id=item.CuentaID }, Request.Url.Scheme)' class="btn btn-lg btn-info modal-link"><span ></span> •••</a>
+
+                            </td>
+                            <td>
+                                
+                            </td>
+                            
+                        </tr>
+                        
+                       
+
+                    }
+
+            </table>  
+            <div class="control-label col-md-2">
+                
+                <label>Total : </label>
+                @Model.Sum(p=>p.Transaccion.Sum(x => x.ImporteOtraDivisa))
+            </div>
+        </div>
+       
+
+        
+    </section>
+    
+
+    <!--====== Scripts -->
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/material.min.js"></script>
+    <script src="~/Scripts/ripples.min.js"></script>
+    <script src="~/Scripts/sweetalert2.min.js"></script>
+    <script src="~/Scripts/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script src="~/Scripts/main.js"></script>
+
+    <script>
+		$.material.init();
+    </script>
+</body>
+</html>
+
+
+

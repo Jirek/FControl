@@ -1,0 +1,95 @@
+﻿@model FControl.Models.Cuenta
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/modalstyles.css" rel="stylesheet" />
+<script src="~/Scripts/Modal.js"></script>
+<link href="~/Content/Modal.css" rel="stylesheet" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="~/Content/Site.css" rel="stylesheet" />
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/style.css" rel="stylesheet" />
+<link href="~/Content/font-awesome.css" rel="stylesheet" />
+<link href="~/Content/icon-font.min.css" rel="stylesheet" />
+<script src="~/Scripts/Chart.js"></script>
+<link href="~/Content/animate.css" rel="stylesheet" />
+<script src="~/Scripts/wow.min.js"></script>
+
+<script>
+    new WOW().init();
+</script>
+<link href='//fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+
+
+<div class="boxbackcol">
+    <div class="modal-title" style="color:#3A87AD;">
+        <h2>Detalle Cuenta</h2>
+    </div>
+
+    @using (Html.BeginForm("detalle", "Cuenta", FormMethod.Post))
+    {
+
+        <div>
+
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Nombre)
+
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.DivisaID)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.DivisaID)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.SaldoInicial)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.SaldoInicial)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Concepto)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Concepto)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.FechaCuenta)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.FechaCuenta)
+                </dd>
+            </dl>
+        </div>
+        <center>
+            <p>
+                
+                <a href='@Url.Action("Editar","Cuenta",new { id=Model.CuentaID }, Request.Url.Scheme)' class="btn btn-md btn-default modal-link"><span class="glyphicon glyphicon-edit"></span> Editar</a>
+                <a href='@Url.Action("Index","Cuenta")' class="btn  btn-sm btn-info"><span class="glyphicon glyphicon-backward"></span> Regresar</a>
+
+            </p>
+        </center>
+    }
+</div>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="~/Scripts/scripts.js"></script>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+        $(function () {
+            $('#btnback').click(function () {
+                $('modal-container').modal('hide');
+            });
+        });
+</script>
+
+

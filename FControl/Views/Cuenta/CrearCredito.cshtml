@@ -1,0 +1,325 @@
+﻿
+@using System.Collections.Generic
+@using FControl.Models
+@model FControl.Models.Cuenta
+
+@{
+    ViewBag.Title = "CrearCredito";
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Inicio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="~/Content/main.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- SideBar -->
+    <section class="full-box cover dashboard-sideBar">
+        <div class="full-box dashboard-sideBar-bg btn-menu-dashboard"></div>
+        <div class="full-box dashboard-sideBar-ct">
+            <!--SideBar Title -->
+            <div class="full-box text-uppercase text-center text-titles dashboard-sideBar-title">
+                Financial Control <i class="zmdi zmdi-close btn-menu-dashboard visible-xs"></i>
+            </div>
+            <!-- SideBar User info -->
+            <div class="full-box dashboard-sideBar-UserInfo">
+                <figure class="full-box">
+                    <img src=@Session["Imagen"].ToString() alt="UserIcon">
+                    <figcaption class="text-center text-titles">@Session["Nombre"].ToString() @Session["Apellido"].ToString() </figcaption>
+                </figure>
+
+                <ul class="full-box list-unstyled text-center">
+                    <li>
+                        <a href="#!">
+                            <i class="zmdi zmdi-settings"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#!" class="btn-exit-system">
+                            <i class="zmdi zmdi-power"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- SideBar Menu -->
+            <ul class="list-unstyled full-box dashboard-sideBar-Menu">
+                <li>
+                    <a href="#!" class="btn-sideBar-SubMenu">
+                        <i class="zmdi zmdi-case zmdi-hc-fw"></i> Cuenta<i class="zmdi zmdi-caret-down pull-right"></i>
+                    </a>
+                    <ul class="list-unstyled full-box">
+                        <li>
+                            <a href="/Cuenta/Crear"><i class="zmdi zmdi-timer zmdi-hc-fw"></i> Crear</a>
+                        </li>
+                        <li>
+                            <a href="/Cuenta/Index"><i class="zmdi zmdi-book zmdi-hc-fw"></i> Lista</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="/Transaccion/Index">
+                        <i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i> Registro
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i> Beneficiario
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Content page-->
+    <section class="full-box dashboard-contentPage">
+        <!-- NavBar -->
+        <nav class="full-box dashboard-Navbar">
+            <ul class="full-box list-unstyled text-right">
+                <li class="pull-left">
+                    <a href="#!" class="btn-menu-dashboard"><i class="zmdi zmdi-more-vert"></i></a>
+                </li>
+                <li>
+                    <a href="#!" class="btn-Notifications-area">
+                        <i class="zmdi zmdi-notifications-none"></i>
+                        <span class="badge">7</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#!" class="btn-search">
+                        <i class="zmdi zmdi-search"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!" class="btn-modal-help">
+                        <i class="zmdi zmdi-help-outline"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Crear Registro -->
+
+
+        @using (Html.BeginForm())
+            {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+
+                <h1 class="text-titles">Crear <small>Cuenta Credito</small></h1>
+
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                <div class="form-group">
+                    <label class="control-label col-md-2"> Fecha:</label>
+                    <label>@DateTime.Now </label>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2"> Tipo de Cuenta </label>
+
+                    <div class="col-md-10">
+                        <a href="/Cuenta/Crear" class="btn btn-default ">Efectivo</a>
+                        <a href="/Cuenta/CrearDebito" class="btn btn-default ">Tarjeta de Débito</a>
+                        <a href="/Cuenta/CrearCredito" class="btn btn-default ">Tarjeta de Crédito</a>
+
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2"> Entidad Emisora </label>
+                    <div class="col-md-10">
+                        <select name="EntidadEmisoraID" class="form-control">
+                            <option value=""></option>
+                            @foreach (var a in (List<EntidadEmisora>)ViewBag.EntidadEmisoraID)
+                            {
+                                <option value="@a.EntidadEmisoraID">@a.Nombre </option>
+                            }
+
+                        </select>
+                        @Html.ValidationMessage(("EntidadEmisoraID"), "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Entidad, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Entidad, new { htmlAttributes = new { @class = "form-control" } })
+                        
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.NumeroTarjeta, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.NumeroTarjeta, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.NumeroTarjeta, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2">Dia del cierre</label>
+                    <div class="col-md-10">
+                        <select name="DiaCierre" class="form-control">
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                        @Html.ValidationMessage(("DiaCierre"), "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2">Dia del pago</label>
+                    <div class="col-md-10">
+                        <select name="DiaPago" class="form-control">
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                        @Html.ValidationMessage(("DiaPago"), "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2"> Limite de Crédito  </label>
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.LimiteCredito, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.LimiteCredito, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2"> Nombre </label>
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" name="Nombre" />
+                        @Html.ValidationMessage(("Nombre"), "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2"> Divisa </label>
+                    <div class="col-md-10">
+                        <select name="DivisaId" class="form-control">
+                            <option value=""></option>
+                            @foreach (var a in (List<Divisa>)ViewBag.DivisaID)
+                            {
+                                <option value="@a.DivisaID">@a.Nombre ( @a.Simbolo )</option>
+                            }
+
+                        </select>
+                        @Html.ValidationMessage(("Divisa"), "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.SaldoInicial, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.SaldoInicial, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.SaldoInicial, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Concepto, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Concepto, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Concepto, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input id="btnCrear" type="submit" value="Crear" class="btn btn-default" />
+                        <a href='@Url.Action("Index","Cuenta")' class="btn  btn-sm btn-info"><span class="glyphicon glyphicon-backward"></span> Regresar</a>
+
+                    </div>
+                </div>
+            </div>
+        }
+
+    </section>
+
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }
+    <!--====== Scripts -->
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/material.min.js"></script>
+    <script src="~/Scripts/ripples.min.js"></script>
+    <script src="~/Scripts/sweetalert2.min.js"></script>
+    <script src="~/Scripts/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script src="~/Scripts/main.js"></script>
+
+    <script>
+		$.material.init();
+    </script>
+</body>
+</html>

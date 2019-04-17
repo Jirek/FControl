@@ -1,0 +1,204 @@
+﻿@model FControl.Models.Traspaso
+@using FControl.Models;
+@using System.Collections.Generic
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Inicio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="~/Content/main.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- SideBar -->
+    <section class="full-box cover dashboard-sideBar">
+        <div class="full-box dashboard-sideBar-bg btn-menu-dashboard"></div>
+        <div class="full-box dashboard-sideBar-ct">
+            <!--SideBar Title -->
+            <div class="full-box text-uppercase text-center text-titles dashboard-sideBar-title">
+                Financial Control <i class="zmdi zmdi-close btn-menu-dashboard visible-xs"></i>
+            </div>
+            <!-- SideBar User info -->
+            <div class="full-box dashboard-sideBar-UserInfo">
+                <figure class="full-box">
+                    <img src=@Session["Imagen"].ToString() alt="UserIcon">
+                    <figcaption class="text-center text-titles">@Session["Nombre"].ToString() @Session["Apellido"].ToString() </figcaption>
+                </figure>
+
+                <ul class="full-box list-unstyled text-center">
+                    <li>
+                        <a href="#!">
+                            <i class="zmdi zmdi-settings"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#!" class="btn-exit-system">
+                            <i class="zmdi zmdi-power"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- SideBar Menu -->
+            <ul class="list-unstyled full-box dashboard-sideBar-Menu">
+                <li>
+                    <a href="#!" class="btn-sideBar-SubMenu">
+                        <i class="zmdi zmdi-case zmdi-hc-fw"></i> Cuenta<i class="zmdi zmdi-caret-down pull-right"></i>
+                    </a>
+                    <ul class="list-unstyled full-box">
+                        <li>
+                            <a href="/Cuenta/Crear"><i class="zmdi zmdi-timer zmdi-hc-fw"></i> Crear</a>
+                        </li>
+                        <li>
+                            <a href="/Cuenta/Index"><i class="zmdi zmdi-book zmdi-hc-fw"></i> Lista</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="/Transaccion/Index">
+                        <i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i> Registro
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i> Beneficiario
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Content page-->
+    <section class="full-box dashboard-contentPage">
+        <!-- NavBar -->
+        <nav class="full-box dashboard-Navbar">
+            <ul class="full-box list-unstyled text-right">
+                <li class="pull-left">
+                    <a href="#!" class="btn-menu-dashboard"><i class="zmdi zmdi-more-vert"></i></a>
+                </li>
+                <li>
+                    <a href="#!" class="btn-Notifications-area">
+                        <i class="zmdi zmdi-notifications-none"></i>
+                        <span class="badge">7</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#!" class="btn-search">
+                        <i class="zmdi zmdi-search"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!" class="btn-modal-help">
+                        <i class="zmdi zmdi-help-outline"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Crear Registro -->
+
+        @using (Html.BeginForm())
+            {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <h1 class="text-titles">Crear <small>Traspaso</small></h1>
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+                <div class="form-group">
+                    <label class="control-label col-md-2"> Cuenta Origen </label>
+                    <div class="col-md-10">
+                        <select name="CuentaOrigenID" class="form-control">
+                            <option value=""></option>
+                            @foreach (var a in (List<Cuenta>)ViewBag.CuentaOrigenID)
+                            {
+                                <option value="@a.CuentaID">@a.Nombre </option>
+                            }
+
+                        </select>
+                        @Html.ValidationMessage(("Cuenta"), "", new { @class = "text-danger" })
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2"> Cuenta Destino</label>
+                    <div class="col-md-10">
+                        <select name="CuentaDestinoID" class="form-control">
+                            <option value=""></option>
+                            @foreach (var a in (List<Cuenta>)ViewBag.CuentaDestinoID)
+                            {
+                                <option value="@a.CuentaID">@a.Nombre </option>
+                            }
+
+                        </select>
+                        @Html.ValidationMessage(("Cuenta"), "", new { @class = "text-danger" })
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2"> Divisa </label>
+                    <div class="col-md-10">
+                        <select name="DivisaId" class="form-control">
+                            <option value=""></option>
+                            @foreach (var a in (List<Divisa>)ViewBag.DivisaID)
+                            {
+                                <option value="@a.DivisaID">@a.Nombre ( @a.Simbolo )</option>
+                            }
+
+                        </select>
+                        @Html.ValidationMessage(("Divisa"), "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Monto, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Monto, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Monto, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Concepto, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Concepto, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Concepto, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Crear" class="btn btn-default" />
+                            <a href='@Url.Action("Index","Traspaso")' class="btn  btn-sm btn-info"><span class="glyphicon glyphicon-backward"></span> Regresar</a>
+
+                        </div>
+                    </div>
+                </div>
+        }
+
+    </section>
+
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }
+    <!--====== Scripts -->
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/material.min.js"></script>
+    <script src="~/Scripts/ripples.min.js"></script>
+    <script src="~/Scripts/sweetalert2.min.js"></script>
+    <script src="~/Scripts/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script src="~/Scripts/main.js"></script>
+
+    <script>
+		$.material.init();
+    </script>
+</body>
+</html>
+

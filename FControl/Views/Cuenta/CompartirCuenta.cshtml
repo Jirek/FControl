@@ -1,0 +1,39 @@
+﻿@model FControl.Models.Cuenta
+@using FControl.Models
+
+<form action="/Cuenta/CompartirCuenta" method="post">
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.CuentaID)
+    <div class="form-horizontal">
+        <hr />
+       
+        <div class="form-group">
+            <label class="control-label col-md-2"> Usuario </label>
+            <div class="col-md-10">
+                <select name="CompartidoID" class="form-control">
+                    <option value=""></option>
+                    @foreach (var a in (List<Usuario>)ViewBag.UsuarioID)
+                    {
+                        <option value="@a.UsuarioID">@a.Nombre @a.Apellido </option>
+                    }
+
+                </select>
+                @Html.ValidationMessage(("Usuario"), "", new { @class = "text-danger" })
+            </div>
+
+        </div>
+        
+
+        <div>
+            <button class="btn-primary bottom-left">Guardar</button>
+        </div>
+    </div>
+</form>
+<br />
+<div class="form-group">
+    @Html.ActionLink("Regresar a la lista", "Index")
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
